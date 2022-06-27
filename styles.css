@@ -1,0 +1,213 @@
+
+
+body{
+  font-family: Quicksand, sans-serif;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.image{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.leftbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100px;
+  height: 100%;
+  border-right-color: rgb(206, 206, 206);
+  border-right-style: solid;
+  border-right-width: 0.1px;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 100px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-left: 100px;
+  padding-right: 80px;
+  z-index: 100;
+}
+
+/* 
+  font-family: 'Plaster';
+  font-family: 'Oleo Script Swash Caps';
+ 
+*/
+
+.logoi{
+  cursor: pointer;
+  font-family: 'Rammetto One', cursive;
+  font-size: 40px;
+  color: #F1214F;
+}
+
+.socials{
+  display: flex;
+  flex-direction: column;
+}
+
+.icons{
+  cursor: pointer;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.icons:hover{
+  color: #F1214F;
+}
+
+.icon-last{
+  cursor: pointer;
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.icon-last:hover{
+  color: #F1214F;
+}
+
+.links{
+  display: flex;
+}
+
+.linka{
+  margin-right: 30px;
+}
+
+.schedule{
+  z-index: 200;
+  color: palevioletred;
+}
+
+.content{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: 0px;
+  left: 100px;
+}
+
+.content-first{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.hero{
+  width: 700px;
+  height: 700px;
+  object-fit: contain;
+}
+
+.am{
+  margin-top: 0;
+  font-size: 70px;
+  color: #383838;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.t{
+  font-family: Saira Condensed, sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+  color: #F1214F;
+}
+
+.am2{
+  font-size: 80px;
+  color: #F1214F;
+  font-family: 'The Nautigal', cursive;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.designer{
+  font-size: 20px;
+}
+
+.work{
+  font-size: 20px;
+}
+
+.cta{
+  cursor: pointer;
+  background-color: #F1214F;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  color: white;
+}
+
+.content-second{
+  position: fixed;
+  bottom: 30px;
+  left: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.email{
+  margin-right: 50px;
+}
+
+.email-text{
+  margin-bottom: 0;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.email-desc{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.phone{
+  margin-right: 50px;
+}
+
+.phone-text{
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.phone-desc{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.location{
+  margin-right: 50px;
+}
+
+.location-text{
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.location-desc{
+  margin-bottom: 0;
+  margin-top: 0;
+}
